@@ -1,0 +1,28 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+#navbar {
+    background-color: #333;
+    color: white;
+    padding: 10px 20px;
+    position: fixed;
+    width: 100%;
+    opacity: 1;
+    top: 0;
+    transition: opacity 0.3s;
+}
+
+#navbar a {
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    display: inline-block;
+}
+
+.content {
+    margin-top: 80px;
+    height: 2000px; /* Để có đủ không gian cuộn */
+}
